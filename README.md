@@ -29,7 +29,7 @@ You can install the the development version of **newspaper** from
 pak::pkg_install("rossellhayes/newspaper")
 ```
 
-To setup **newspaper**’s Python dependencies, use
+To set up **newspaper**’s Python dependencies, use
 
 ``` r
 library(newspaper)
