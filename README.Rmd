@@ -62,7 +62,7 @@ newspaper_scrape(
 )
 ```
 
-*newspaper* will return `NA` values if an article cannot be located:
+**newspaper** will return `NA` values if an article cannot be located:
 
 ```{r}
 newspaper_scrape("http://invalid.example")

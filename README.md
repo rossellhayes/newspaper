@@ -60,7 +60,7 @@ newspaper_scrape(
 #> 1 What is web scraping? Here's what you ~ "Web scraping is the process of using~
 ```
 
-*newspaper* will return `NA` values if an article cannot be located:
+**newspaper** will return `NA` values if an article cannot be located:
 
 ``` r
 newspaper_scrape("http://invalid.example")
