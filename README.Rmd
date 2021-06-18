@@ -17,7 +17,7 @@ library(badger)
 library(newspaper)
 ```
 
-# incase <img src="man/figures/logo.png?raw=TRUE" align="right" height="138" />
+# newspaper
 
 <!-- badges: start -->
 <!-- `r badge_cran_release(color = "brightgreen")` -->
@@ -29,18 +29,18 @@ library(newspaper)
 <!-- `r badge_dependencies()` -->
 <!-- badges: end -->
 
-**newspaper** provides an interface for scraping online news articles, powered by the [*newspaper* Python package](https://newspaper.readthedocs.io/en/latest/).
+**newspaper** provides an interface for scraping online news articles, powered by the [**newspaper** Python package](https://newspaper.readthedocs.io/en/latest/).
 
 ## Installation
 
-You can install the the development version of *newspaper* from [GitHub](https://github.com/rossellhayes/incase) with:
+You can install the the development version of **newspaper** from [GitHub](https://github.com/rossellhayes/incase) with:
 
 ``` {r eval = FALSE}
 # install.packages("pak")
 pak::pkg_install("rossellhayes/newspaper")
 ```
 
-To setup *newspaper*'s Python dependencies, use
+To setup **newspaper**'s Python dependencies, use
 
 ```{r eval = FALSE}
 library(newspaper)
